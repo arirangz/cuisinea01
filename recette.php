@@ -34,7 +34,7 @@ if ($recipe) {
 
 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <h2>Instructions</h2>
-    <ol class="list-group">
+    <ol class="list-group list-group-numbered">
         <?php foreach ($instructions as $key => $instruction) { ?>
             <li class="list-group-item"><?=$instruction; ?></li>
         <?php } ?>

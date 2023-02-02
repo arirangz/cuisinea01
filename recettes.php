@@ -3,11 +3,7 @@
   require_once('lib/recipe.php');
 
 
-  $sql = 'SELECT * FROM recipes ORDER BY id DESC';
-
-  $query = $pdo->prepare($sql);
-  $query->execute();
-  $recipes = $query->fetchAll();
+  $recipes = getRecipes($pdo);
 
 ?>
 
