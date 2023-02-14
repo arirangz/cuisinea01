@@ -1,4 +1,4 @@
-<div class="col-md-4">
+<div class="col-md-4 my-2 d-flex">
     <div class="card">
         <img src="<?=getRecipeImage($recipe['image']); ?>" class="card-img-top" alt="<?= $recipe['title']; ?>">
         <div class="card-body">
